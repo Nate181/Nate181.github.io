@@ -58,7 +58,7 @@ header, nav, aside, section, article, footer{
 	padding: 20px 0;
 	text-align: center;
 	font-size: 18px;
-	text-transform: uppercase;
+	text-transform: none:;
 	font-weight: bold;
 	font-family: 'Times New Roman';
 }
