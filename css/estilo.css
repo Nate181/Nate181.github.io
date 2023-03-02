@@ -9,37 +9,15 @@ html{
     text-align: center;
 }
 
-/**Movil**/
-@media (max-width: 767px) {
-    .desktop {
-        display: none;
-    }
-    .tablet {
-        display: none;
-    }
-}
-/**Tablet**/
-@media (min-width: 768px) and (max-width: 990px) {
-    .desktop {
-        display: none;
-    }
-    .movil {
-        display: none;
-    }
-}
-/**Escritorio**/
-@media (min-width: 991px) {
-    .tablet {
-        display: none;
-    }
-    .movil {
-        display: none;
-    }
-}
-
 body{
 	width: 95%;
 	margin: 10px auto;
+}
+.contenedor{
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	background: #f5f5dc;
 }
 header{
 	float: left;
@@ -65,7 +43,7 @@ nav ul li{
 }
 aside{
 float: right;
-width: 25%;
+width: 27%;
 background: FireBrick;
 }
 
@@ -93,5 +71,5 @@ header, nav, aside, section, article, footer{
 	font-size: 18px;
 	text-transform: none:;
 	font-weight: bold;
-	font-family: 'Times New Roman';
+	font-family: 'Arial';
 }

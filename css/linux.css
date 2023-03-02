@@ -8,6 +8,12 @@ body{
 	width: 95%;
 	margin: 10px auto;
 }
+.contenedor{
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	background: #f5f5dc;
+}
 header{
 	float: left;
 width: 100%;
@@ -32,7 +38,7 @@ nav ul li{
 }
 aside{
 float: right;
-width: 25%;
+width: 27%;
 background: FireBrick;
 }
 
@@ -58,7 +64,7 @@ header, nav, aside, section, article, footer{
 	padding: 20px 0;
 	text-align: center;
 	font-size: 18px;
-	text-transform: none:;
-	font-weight: bold;
-	font-family: 'Times New Roman';
+	text-transform: none;
+	font-weight:bold;
+	font-family: 'arial';
 }
